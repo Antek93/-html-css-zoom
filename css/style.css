@@ -89,7 +89,7 @@ body {
 }
 
 .left-block {
-    width: 33%;
+    width: 25%;
     text-align: center;
     margin-left: 15px;
     color: white;
@@ -105,7 +105,7 @@ body {
 }
 
 .central-block {
-    width: 33%;
+    width: 50%;
     text-align: center;
     margin-left: 15px;
     color: white;
@@ -113,7 +113,7 @@ body {
 }
 
 .right-block {
-    width: 33%;
+    width: 25%;
     text-align: right;
     margin-left: 15px;
     color: white;
@@ -121,7 +121,7 @@ body {
 }
 
 .icon {
-    margin-bottom: 7px;
+    margin-bottom: 14px;
     margin-top: 14px;
     font-size: 20px;
     cursor: pointer;
@@ -143,4 +143,14 @@ body {
 
 .fa-youtube {
     margin-left: 10px;
+}
+
+.color {
+    color: green;
+}
+
+/* Elementi da inserire su necessità */
+
+.hidden {
+    visibility: hidden;
 }
