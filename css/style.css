@@ -39,6 +39,7 @@ body {
 
 /* MAIN  */
 
+/* FOTO  */
 .main-container {
     background-color: white;
     width: 1500x;
@@ -59,6 +60,8 @@ body {
     margin: 3px 3px;
 }
 
+/* FIXED BOTTOM  */
+
 .bottom-container {
     background-color: black;
     width: 100%;
@@ -68,7 +71,9 @@ body {
     font-size: 20px;
     vertical-align: middle;
     line-height: 50%;
-    
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 
@@ -85,7 +90,7 @@ body {
 
 .left-block {
     width: 33%;
-    text-align: left;
+    text-align: center;
     margin-left: 15px;
     color: white;
     font-size: 15px;
@@ -99,23 +104,27 @@ body {
     clear: both;
 }
 
-#central-block {
+.central-block {
     width: 33%;
     text-align: center;
-    margin: 0px 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 15px;
 }
 
-#right-block {
+.right-block {
     width: 33%;
     text-align: right;
-    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 15px;
 }
 
-.microphone {
-    margin-left: 7px;
+.icon {
     margin-bottom: 7px;
     margin-top: 14px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .mini-block {
@@ -130,4 +139,8 @@ body {
     margin-left: 6px;
     margin-right: 6px;
 
+}
+
+.fa-youtube {
+    margin-left: 10px;
 }
