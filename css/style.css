@@ -141,6 +141,7 @@ body {
     margin-top: 0;
 }
 
+
 .icon {
     margin-bottom: 14px;
     margin-top: 14px;
@@ -175,12 +176,19 @@ body {
     line-height:70px;
     color: red;
     font-weight: bold;
-    background-color: #4a4a4a;
+    background-color: #222222;
     display: inline-block;
     border: none;
     height: 10vh;
     cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
  }
+
+ #meeting:hover {
+    background-color: #4a4a4a;
+ }
+
 /* Elementi da inserire su necessità */
 
 .hidden {
